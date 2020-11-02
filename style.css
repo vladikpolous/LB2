@@ -2,6 +2,9 @@
     width: 400px;
     border-radius: 5px;
     background: gray;
+    position: absolute;
+    left: 600px;
+    top: 200px;
 }
 
 .accordion__label,
@@ -14,7 +17,8 @@
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
-    text-align: center;
+    position: relative;
+    left: 120px;
 }
 
 .accordion__content {
