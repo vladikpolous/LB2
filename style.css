@@ -1,0 +1,34 @@
+.accordion {
+    width: 400px;
+    border-radius: 5px;
+    background: gray;
+}
+
+.accordion__label,
+.accordion__content {
+    padding: 14px 20px;
+}
+
+.accordion__label {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.accordion__content {
+    background: #ffffff;
+    font-size: medium;
+    display: none; /* не видно текст */
+    border: 3px solid gray;
+}
+
+.accordion__input {
+    display: none; /* не видно куржки */
+}
+
+.accordion__input:checked ~ .accordion__content {
+    display: block; /* отображение в виде блока */
+}
+
