@@ -4,14 +4,12 @@
     background: gray;
     position: absolute;
     left: 600px;
-    top: 200px;
+    top: 300px;
 }
-
 .accordion__label,
 .accordion__content {
     padding: 14px 20px;
 }
-
 .accordion__label {
     display: block;
     color: #ffffff;
@@ -20,19 +18,25 @@
     position: relative;
     left: 120px;
 }
-
 .accordion__content {
     background: #ffffff;
     font-size: medium;
     display: none; /* не видно текст */
     border: 3px solid gray;
 }
-
 .accordion__input {
     display: none; /* не видно куржки */
 }
-
 .accordion__input:checked ~ .accordion__content {
     display: block; /* отображение в виде блока */
 }
-
+.float1 {
+    float: left;
+    background: coral;
+    padding: 10px;
+    margin-right: 20px;
+    width: 50%;
+}
+.accordion__input:checked {
+    display: block; /* отображение в виде блока */
+}
