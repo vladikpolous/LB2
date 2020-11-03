@@ -37,6 +37,4 @@
     margin-right: 20px;
     width: 50%;
 }
-.accordion__input:checked {
-    display: block; /* отображение в виде блока */
-}
+
